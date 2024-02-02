@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Shop Simulation Website - MegaMart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Bem-vindo ao MegaMart! Este projeto foi desenvolvido em TypeScript e React, utilizando o framework Vite. O objetivo é simular um site de compras, onde os usuários podem escolher a quantidade de produtos, adicioná-los ao carrinho e visualizar o total da compra. Além disso, o site conta com as páginas Home e Sobre, oferecendo informações gerais sobre a plataforma.
 
-## Expanding the ESLint configuration
+Você pode experimentar a aplicação em [URL da Aplicação](shop-project-typescript.vercel.app).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- **Escolha de Quantidade:** Os usuários podem selecionar a quantidade desejada para cada produto.
+- **Adição ao Carrinho:** Adicione produtos ao carrinho de compras.
+- **Total da Compra:** Visualize o total da sua compra antes de finalizá-la.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Páginas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Home
+
+A página inicial oferece uma visão geral do site e destaca os produtos em destaque.
+
+### Loja
+
+A página loja exibe os itens selecionados, quantidades e o total da compra.
+
+### Sobre
+
+A página Sobre fornece informações sobre a proposta do site e outros detalhes relevantes.
