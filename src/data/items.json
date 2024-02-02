@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Livro",
+        "price": 59.90,
+        "imgUrl": "/imgs/book.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Notebook",
+        "price": 1199,
+        "imgUrl": "/imgs/computer.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Macbook",
+        "price": 20000,
+        "imgUrl": "/imgs/macbook.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Camisa Brasil",
+        "price": 359,
+        "imgUrl": "/imgs/camisa.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Air Jordan",
+        "price": 1500,
+        "imgUrl": "/imgs/nike.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Iphone",
+        "price": 5000,
+        "imgUrl": "/imgs/iphone.jpg"
+    }
+]
