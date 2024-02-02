@@ -6,7 +6,7 @@
 
 Bem-vindo ao MegaMart! Este projeto foi desenvolvido em TypeScript e React, utilizando o framework Vite. O objetivo é simular um site de compras, onde os usuários podem escolher a quantidade de produtos, adicioná-los ao carrinho e visualizar o total da compra. Além disso, o site conta com as páginas Home e Sobre, oferecendo informações gerais sobre a plataforma.
 
-Você pode experimentar a aplicação em [URL da Aplicação](shop-project-typescript.vercel.app).
+Você pode experimentar a aplicação em [URL da Aplicação](https://shop-project-typescript-h4pipey2m-abners-projects-ec346673.vercel.app).
 
 ## Funcionalidades
 
